@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        html, body, #map-canvas {
+            height: 100%;
+            margin: 0px;
+            padding: 0px
+        }
+        #ctrl {
+            opacity:.8;
+            font-size:12px;
+            background:#fff;
+            border:1px solid #000;
+            border-radius:5px;
+            padding:4px;
+        }
+        #ctrl strong {
+            color:Green
+        }
+        #ctrl code {
+            white-space:nowrap
+        }
+    </style>
+</head>
+<body>
+    <div id="map-canvas"></div>
+    <div id="ctrl"><strong>the green markers are draggable</strong>
+        <ul></ul>
+    </div>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=geometry"></script>
+    <script language="JavaScript" src="../js/closest_distance.js"></script>
+</body>
+</html>
